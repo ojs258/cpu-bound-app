@@ -20,7 +20,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "Git Hooks build!!!!";
+        return "Git Hook deploy 1";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
